@@ -1,0 +1,11 @@
+.join__title{
+ @extend %join__title;
+    text-transform: uppercase;
+    margin-bottom: 20px;  
+    color: #FFFFFF;
+}
+.join__list{
+  list-style: none;
+  display: flex;
+  justify-content: center;  
+}

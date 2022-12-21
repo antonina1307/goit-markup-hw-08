@@ -1,0 +1,15 @@
+.team__section {
+background: #F5F4FA;
+}
+.team__title {
+  @extend %team__title;
+   text-align: center;
+  color: #212121;
+  margin-bottom: 50px; 
+}
+.team__list{  
+  list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}

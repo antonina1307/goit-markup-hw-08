@@ -1,0 +1,22 @@
+.header__logo {
+    font-family: "Raleway";
+    @extend %header__logo;
+    text-decoration: none;
+    margin-right: 93px;
+}
+
+.header__logo--sp {
+    color: #212121;
+}
+
+a.header__logo {
+    color: var(--accent-color);
+}
+
+.header__logo {
+    color: black;
+
+}header .container{
+  display: flex;
+ 
+}
