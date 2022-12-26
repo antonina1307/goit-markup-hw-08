@@ -1,7 +1,9 @@
  
 .work {
   padding-top: 0;
+
 }
+
 .work__title{
  @extend %work__title;
   text-align: center;
@@ -10,8 +12,8 @@
 }
 .work__list{
   list-style: none;
-  display: flex;
-  justify-content:center ;
+  // display: flex;
+  // justify-content:center ;
 }
 .work__item:not(:last-child){
   margin-right: 30px;

@@ -2,6 +2,10 @@
   list-style: none;
   @extend %flex__align;
   margin-left:auto ;
+  
+   @media screen and(max-width:480px){
+  display: none;
+ }
 }
 .contacts__item {
   color: #757575;

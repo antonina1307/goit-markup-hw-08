@@ -1,32 +1,33 @@
-@import './base/reset';
-@import './base/hidden';
+
 @import './utils/variables';
 @import './utils/font';
 @import './utils/placeholders';
+@import './base/breakpoints';
+@import './base/hidden';
+@import './base/normalize';
+@import './base/reset';
 @import './components/common';
+@import './components/mobilemenu';
 @import './components/header';
 @import './components/navigation';
 @import './components/contacts';
 @import './components/hero';
 @import './components/features';
 @import './components/work';
-@import './components/team';
 @import './components/card';
 @import './components/clients';
 @import './components/footer';
 @import './components/join';
 @import './components/backdrop';
 @import './components/form';
-@import './base/normalize';
-@import './base/hidden';
-@import './utils/variables';
+@import './components/modal';
 @import './components/portfolio';
-@import './components/header';
-@import './components/navigation';
-@import './components/contacts';
 @import './components/filter';
-@import './utils/font';
-@import './components/footer';
+
+
+
+
+
 
 
 

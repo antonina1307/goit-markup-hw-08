@@ -19,16 +19,58 @@
 
   <header class="hdr">
     <div class="container">
-      <nav class="navigation">
-        <a href="./index.html" class="header__logo">Web<span class="header__logo--sp">Studio</span></a>
+      <a href="./index.html" class="header__logo">Web<span class="header__logo--sp">Studio</span></a>
+          <button type="button" class="menu-button js-open-menu" data-menu-button aria-expanded="false"
+            aria-label="Переключатель мобильного меню">
+            <svg class="menu-button__icon" width="40" height="40">
+              <use class="icon-cross" href="./images/symbol-defs.svg#icon-menu"></use>          
+            </svg>
+          </button>
+          <div class="mobile-menu js-menu-container">
+          <button type="button" class="menu-button js-close-menu">
+            <svg class="menu-button__icon" width="40" height="40">
+              <use class="icon-menu" href="./images/symbol-defs.svg#close-btn"></use>
+            </svg>
+          </button>
+            <ul class="mobile-nav__list">              
+              <li class="mobile-nav__item"><a href="./index.html" class="mobile-nav__link mobile-nav__link--current">Студія</a>
+              </li>
+              <li class="mobile-nav__item"><a href="./portfolio.html" class="mobile-nav__link">Портфоліо</a></li>
+              <li class="mobile-nav__item"><a href="" class="mobile-nav__link">Контакти</a></li>
+            </ul>
+            <ul class="mobile-contacts">
+              <li class="mobile-contacts__item">
+                <a href="tel:+380961111111" class="mobile-contacts__tel">+38 096 111 11 11</a>
+              </li>
+              <li class="mobile-contacts__item">
+                <a href="mailto:info@devstudio.com" class="mobile-contacts__mail">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="social">
+              <li class="social__item">
+                <a href="" class="social__link">Instagram</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">Twitter</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">Facebook</a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">Linkedin</a>
+              </li>
+            </ul>
+          
+          </div>
+      <!-- <nav class="navigation">       
         <ul class="nav-list">
           <li class="nav__item"><a class="nav__link nav__link--act" href="./index.html">Студія</a></li>
           <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
           <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li class="contacts__item">
+      </nav> -->
+      <!-- <ul class="contacts">
+               <li class="contacts__item">
           <a href="mailto:info@devstudio.com" class="contacts__mail">
             <svg class="contacts__icon--mail" width="16" height="16">
               <use href="./images/symbol-defs.svg#icon-mail"></use>
@@ -37,28 +79,29 @@
           </a>
         </li>
         <li class="contacts__item">
-
           <a href="tel:+380961111111" class="contacts__tel">
             <svg class="contacts__icon--tel" width="16" height="16">
               <use href="./images/symbol-defs.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11
           </a>
-
         </li>
-      </ul>
+      </ul> -->
+    
+  
     </div>
-  </header>
-  <main class="main-content">
-    <!--Hero-->
-    <section class="hero">
+            
+  </header> 
+  <!-- <main class="main-content">
+    <--Hero-->
+     <!-- <section class="hero">
       <div class="container">
         <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
         <button data-modal-open class="hero__button" type="button">Замовити послугу</button>
       </div>
-    </section>
+    </section>  -->
     <!--Особливості-->
-    <section class="section features">
+  <!-- <section class="section features">
       <div class="container">
         <h2 class="hidden">Особливості</h2>
         <ul class="features__list">
@@ -111,9 +154,9 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!--чим ми займаємося-->
-    <section class="section work">
+    </section>  -->
+    <!-- чим ми займаємося--> 
+      <!-- <section class="section work">
       <div class="container">
         <h2 class="work__title">Чим ми займаємося</h2>
         <ul class="work__list">
@@ -131,9 +174,9 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!--Наша команда-->
-    <section class="section team__section">
+    </section>  -->
+    <!-- Наша команда
+     <section class="section team__section">
       <div class="container">
         <h2 class="team__title">Наша команда!</h2>
         <ul class="team__list">
@@ -287,9 +330,9 @@
           </li>          
         </ul>
       </div>
-    </section>
+    </section> -->
 <!-- Постійні клієнти -->
-    <section class="clients section">
+    <!-- <section class="clients section">
       <div class="container">
         <h2 class="clients__title">Постійні клієнти</h2>
         <ul class="clients__list">
@@ -339,10 +382,10 @@
 
       </div>
 
-    </section>
-  </main>
+    </section> -->
+  </main> 
 
-  <footer class="footer__section">
+  <!-- <footer class="footer__section">
     <div class="container footer__container">
       <div class="address__box">
         <a href="./index.html" class="header__logo">Web<span class="header__logo--inverse">Studio</span></a>
@@ -407,11 +450,11 @@
         </button>        
       </form>
     </div>
-  </footer>
-  <div data-modal class="backdrop is-hidden">
+  </footer>  -->
+  <!-- <div data-modal class="backdrop is-hidden">
     <div class="modal">
       <button data-modal-close class="modal__close-button">
-        <svg class="modal__close-icon">
+        <svg class="modal__close-icon" width="30" height="30">
           <use href="./images/symbol-defs.svg#close-btn"></use>
         </svg>
       </button>
@@ -458,8 +501,10 @@
         <button class="modal__button" type="submit">Відправити</button>
       </form>
     </div>
-  </div>
+  </div> -->
+
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
